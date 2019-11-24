@@ -2,9 +2,8 @@ version: 0.2
 phases:
   	post_build:
 	commands:
-      - echo Build completed on 'date'
-      - mvn package
+		- echo Build completed on 'date'
+		- mvn package
 artifacts:
-  files:
-    - target/SpingBootAws-0.0.1-SNAPSHOT.war
-    - buildspec.yml
+	files:
+		- target/SpingBootAws-0.0.1-SNAPSHOT.war
