@@ -17,7 +17,7 @@ phases:
   post_build:
     commands:
       - mvn package 
-
+	  - mv target/SpingBootAws-0.0.1-SNAPSHOT.war SpingBootAws-0.0.1-SNAPSHOT.war
 
 artifacts:
   files:
