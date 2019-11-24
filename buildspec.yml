@@ -8,7 +8,7 @@ phases:
       
   pre_build:
     commands:
-      - echo test prebuild 123
+      - echo test prebuild 1234
 
   build:
     commands:
